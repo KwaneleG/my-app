@@ -1,0 +1,35 @@
+.projects{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.projects .project-items{
+    border: 1px solid #FFF;
+    padding: 6.5px;
+    border-radius: 3px;
+    margin: 4px;
+    width: 80%;
+}
+
+.projects .project-items a{
+    text-decoration: none;
+}
+
+
+
+.projects .project-items .project-name{
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #00FF00;
+}
+.projects .project-items .project-name:hover{
+    text-decoration: underline;
+}
+
+.projects .project-items .project-desc{
+    font-size: .9rem;
+    color: purple;
+}
