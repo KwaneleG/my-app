@@ -6,13 +6,13 @@ function Home(){
 
     return (
         <div className="container">
-            <h1>Hi, my name is Kwanele Gcaleka.</h1>
+            <h1>Hi, my name is Kwanele T Gcaleka.</h1>
             <div className="bio">
                 <div className="left">
                     <img src={ Me } alt="Kwanele Gcaleka" />
                 </div>
                 <div className="right">
-                    <p>This is a of about cake buy sell give you hi like go pick.
+                    <p>That is a of about cake buy sell give you hi like go pick.
                     This is a of about cake buy sell give you hi like go pick.</p>
                     <p>This is a of about cake buy sell give you hi like go pick.
                     This is a of about cake buy sell give you hi like go pick.</p>
