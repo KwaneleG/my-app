@@ -15,6 +15,9 @@ function Header(){
                     return <MenuItem key={elKey} {...el}  />
                 })}
             </ul>
+            <div className="reach">
+                <a href="mailto://ktgcaleka@gmail.com">ktgcaleka@gmail.com</a>
+            </div>
         </div>
     );
 }

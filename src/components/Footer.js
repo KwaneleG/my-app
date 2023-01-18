@@ -2,8 +2,9 @@ import { NavLink } from "react-router-dom";
 import "./Footer.css";
 
 var links = [
-    {href: "https://github.com/kwaneleg", name: "GitHub"},
-    {href: "https://www.linkedin.com/in/kwanelegcaleka", name: "LinkedIn"}
+    {href: "//github.com/kwaneleg", name: "GitHub"},
+    {href: "//www.linkedin.com/in/kwanelegcaleka", name: "LinkedIn"},
+    {href: "/", name: "YouTube"}
 ];
 
 function Footer(){
@@ -22,7 +23,7 @@ function FooterItem(prop){
 
     return (
         <li className="footer-item">
-            <NavLink to={ prop.href }>{ prop.name }</NavLink>
+            <NavLink to={ prop.href } target="_blank">{ prop.name }</NavLink>
         </li>
     );
 }

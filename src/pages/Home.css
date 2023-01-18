@@ -1,0 +1,76 @@
+.container{
+    padding-bottom: 45px;
+    width: 100%;
+}
+
+.container > h1{
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 4px;
+    margin: 22px 0;
+}
+
+.container > .bio{
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.container > .bio > .left{
+    width: 50%;
+    text-align: right;
+}
+
+.container > .bio > .left img{
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 5%;
+    margin-right: 22px;
+}
+
+.container > .bio > .right{
+    width: 50%;
+}
+.container > .bio > .right > p{
+    width: 80%;
+}
+
+@media screen and (min-width: 240px) and (max-width: 420px) and (min-height: 401px){
+    .container > h1{
+        text-align: center;
+        font-size: 2.6rem;
+        font-family: 'Courier New', Courier, monospace;
+        padding: 4px;
+        margin: 22px 0;
+    }
+
+    .container > .bio{
+        width: 100%;
+        display: flex;
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .container > .bio > .left{
+        width: 100%;
+        text-align: center;
+    }
+    .container > .bio > .left img{
+        width: 80%;
+        margin: 0;
+        border-radius: 5%;
+    }
+
+    .container > .bio > .right{
+        margin-top: 22px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container > .bio > .right > p{
+        width: 80%;
+    }
+}

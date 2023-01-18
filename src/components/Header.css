@@ -2,11 +2,28 @@
     width: 100%;
     background-color: #000;
     padding: 8px;
+    border-bottom: 0.5px solid #b4b4b4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .menu{
     list-style: none;
 }
+
+.reach{
+    flex-grow: 1;
+    text-align: center;
+    font-size: 22px;
+}
+
+.reach a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+
 
 .menu-item{
     display: inline-block;
@@ -38,4 +55,10 @@
 
 .menu-item:hover > a::after{
     background-color: #FF4500;
+}
+
+@media screen and (min-width: 240px) and (max-width: 420px) and (min-height: 401px){
+    .reach{
+        display: none;
+    }
 }
