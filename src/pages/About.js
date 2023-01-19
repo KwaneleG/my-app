@@ -10,9 +10,11 @@ function About(){
 SovTech. I like programming  and I also like problem solving 
 it's what keep me thinking in mind and that when I believe I'm 
 still alive. I like resolving critical problems.</p>
+<br></br>
 
-<p>I deed my final year last year at DUT for Diploma in ICT, and my 
-Matric in 2018. This qualifications taught me a lot about how life 
+<p>I deed my final year in 2022 at DUT for Diploma in ICT, and my 
+Matric in 2018.The love of computers started while i was in high school, my school didn't have enough computers. 
+This was a reason i shaped my career path to this qualification, this taught me a lot about how life 
 is today. This helped me in accessing my career pathway toward 
 Technology. In my childhood I was falling in love with devices Including cellphones, gaming,
 Computers. I really want to acquire more practical knowledge around Computer through 
